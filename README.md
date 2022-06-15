@@ -1,16 +1,18 @@
 # qr_reader
 
-A new Flutter project.
+Aplicacion que lee Codigos QR / desarrollado en el curso de Fernando Herrera.
 
-## Getting Started
+Pagina para crear QR: https://www.qrcode.es/es/generador-qr-code/
 
-This project is a starting point for a Flutter application.
+Ejemplo de direcciones: https://www.youtube.com
 
-A few resources to get you started if this is your first Flutter project:
+Ejemplo de Mapas: geo:6.279170,-75.589249
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Dependencias utilizadas
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Barcode_scanner -> Para escanear los codigos QR
+- Provider -> Para usar estados y funciones globales en toda la App
+- SQLite -> Usado para guardar los registros de mapa y/o geolocalización
+- GoogleMaps -> Para mostrar las ubicaciones registradas en la App
+- Url_launcher -> Usado para abrir el navegador con la Dirección url registrada
+- Path_provider -> Para obtener el directorio y poder guardar la DB
